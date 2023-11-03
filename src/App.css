@@ -1,0 +1,329 @@
+.searchNote,
+.todoList {
+  position: relative;
+  font-weight: 500;
+}
+.todoList {
+ font-family: var(--font-playfair-display);
+ font-weight: bolder;
+ font-size: larger;
+ margin-bottom: 20px;
+}
+.searchNote {
+  line-height: 100%;
+}
+.vectorIcon {
+  position: relative;
+  width: 21px;
+  height: 21px;
+}
+.search {
+  border-radius: 8px;
+  border: 1px solid purple;
+  box-sizing: border-box;
+  height: 38px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 5px 16px;
+  gap: 436px;
+}
+.all {
+  position: absolute;
+  top: 0;
+  left: 0;
+  line-height: 100%;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+.chevronTopIcon {
+  position: absolute;
+  height: 22.22%;
+  width: 10.77%;
+  top: 47.22%;
+  right: -0.77%;
+  bottom: 30.56%;
+  left: 90%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.content {
+  position: relative;
+  width: 65px;
+  height: 18px;
+}
+.colorSchemeChild {
+  border-radius: 9px;
+  background-color: rgb(110, 39, 110);
+}
+.select {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  font-size: 18px;
+  color: var(--white);
+  font-family: var(--font-kanit);
+}
+.colorSchemeChild {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 38px;
+  height: 38px;
+}
+.vectorIcon1 {
+  position: absolute;
+  height: 57.89%;
+  width: 57.89%;
+  top: 21.05%;
+  right: 21.05%;
+  bottom: 21.05%;
+  left: 21.05%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.colorScheme {
+  position: relative;
+  width: 38px;
+  height: 38px;
+}
+.head,
+.header {
+  display: flex;
+  justify-content: center;
+}
+.header {
+  width: 750px;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 16px;
+  font-size: 16px;
+  color: #c3c1e6;
+  font-family: var(--font-inter);
+  margin: 20px;
+}
+.head {
+  position: absolute;
+  top: 0;
+  left: 0;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px 0 0;
+  gap: 18px;
+}
+.addButtonIcon {
+  position: absolute;
+  top: 389px;
+  left: 678px;
+  width: 58px;
+  height: 58px;
+}
+.addButtonIcon:hover {
+cursor: pointer;
+box-shadow: 10px 9px 30px 10px black;
+border-radius: 50px;
+}
+.noteChild {
+  position: absolute;
+  top: 0;
+  left: calc(50% - 262.5px);
+  border-radius: var(--br-11xs);
+  border: 1px solid purple;
+  box-sizing: border-box;
+  width: 26px;
+  height: 26px;
+}
+.note1 {
+  position: absolute;
+  top: 3px;
+  left: calc(50% - 219.5px);
+  line-height: 100%;
+  text-transform: uppercase;
+  font-weight: 500;
+  display: inline-block;
+  width: 420px;
+}
+.optionsChild,
+.trashSvgrepoCom1Icon {
+  position: relative;
+  width: 18px;
+  height: 18px;
+}
+.trashSvgrepoCom1Icon {
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.note,
+.options {
+  position: absolute;
+}
+.options {
+  top: 4px;
+  left: 463px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0 var(--padding-5xs);
+  gap: 10px;
+}
+.btn-secondary{
+  background-color: rgb(96, 45, 96);
+}
+.note {
+  top: 0;
+  left: calc(50% - 260px);
+  width: 525px;
+  height: 26px;
+}
+.noteInner,
+.noteItem {
+  position: absolute;
+  box-sizing: border-box;
+}
+.noteItem {
+  top: 0;
+  left: calc(50% - 231.5px);
+  border-radius: var(--br-11xs);
+  background-color: purple;
+  border: 1px solid purple;
+  width: 26px;
+  height: 26px;
+}
+.noteInner {
+  top: 18.6px;
+  left: 11px;
+  border-top: 2px solid var(--white);
+  border-left: 2px solid var(--white);
+  width: 7px;
+  height: 13.7px;
+  transform: rotate(-135.56deg);
+  transform-origin: 0 0;
+}
+.note21 {
+  position: absolute;
+  top: 3px;
+  left: calc(50% - 188.5px);
+  text-decoration: line-through;
+  line-height: 100%;
+  text-transform: uppercase;
+  display: inline-block;
+  width: 420px;
+}
+.vectorIcon2 {
+  position: relative;
+  width: 13px;
+  height: 13px;
+}
+.options1 {
+  position: absolute;
+  top: 4px;
+  left: 463px;
+  display: none;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0 5px;
+  gap: 3px;
+}
+.note2 {
+  position: absolute;
+  top: 60px;
+  left: calc(50% - 260px);
+  width: 463px;
+  height: 26px;
+  color: rgba(37, 37, 37, 0.5);
+}
+.rectangleDiv {
+  top: 0;
+  left: calc(50% - 231.5px);
+  border-radius: var(--br-11xs);
+  border: 1px solid purple;
+  box-sizing: border-box;
+  width: 26px;
+  height: 26px;
+}
+.note3,
+.note31,
+.rectangleDiv {
+  position: absolute;
+}
+.note31 {
+  top: 3px;
+  left: calc(50% - 188.5px);
+  line-height: 100%;
+  text-transform: uppercase;
+  font-weight: 500;
+  display: inline-block;
+  width: 420px;
+}
+.note3 {
+  top: 120px;
+  left: calc(50% - 260px);
+  width: 463px;
+  height: 26px;
+}
+.listChild,
+.listItem {
+  position: absolute;
+  top: 42.5px;
+  left: -0.5px;
+  border-top: 1px solid purple;
+  box-sizing: border-box;
+  width: 521px;
+  height: 1px;
+  opacity: 0.5;
+}
+.listItem {
+  top: 102.5px;
+}
+.image4Icon {
+  position: absolute;
+  top: 5px;
+  left: 334px;
+  width: 39.4px;
+  height: 39.4px;
+  object-fit: cover;
+}
+.list {
+  position: absolute;
+  top: 30px;
+  left: 115px;
+  width: 520px;
+  height: 545px;
+}
+.body,
+.container {
+  position: absolute;
+  width: 750px;
+}
+.body {
+  top: 235px;
+  left: 0;
+  height: 575px;
+  font-size: var(--font-size-xl);
+}
+.container {
+  top: 0;
+  left: 325px;
+  height: 710px;
+  background-color: azure;
+  border-radius: 30px;
+  box-shadow:20px 9px 20px 9px rgb(54, 48, 48);
+  display: flex;
+  flex-direction:column;
+}
+.App {
+  background-color: rgb(219, 155, 219);
+  width: 100%;
+  height: 800px;
+  overflow: hidden;
+  text-align: left;
+  font-size: 26px;
+  color: black;
+  font-family: var(--font-kanit);
+}
